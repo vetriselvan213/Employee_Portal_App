@@ -60,7 +60,7 @@ const EmployeeList = () => {
             <Sidebar />
             <div className="flex-1 flex flex-col overflow-hidden lg:ml-0">
                 <Navbar />
-                <main className="flex-1 flex flex-col p-4 sm:p-6 lg:p-8 overflow-hidden">{/* Header */}
+                <main className="flex-1 flex flex-col p-4 sm:p-6 lg:p-8 overflow-auto">{/* Header */}
                     <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-8">
                         <div>
                             <h2 className="text-3xl font-bold text-gray-900">Employees</h2>
